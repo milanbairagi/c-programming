@@ -12,12 +12,8 @@ int main() {
     printf("Enter data for 5 students:\n");
     for (int i = 0; i < 5; i++) {
         printf("Student %d:\n", i + 1);
-        printf("Name: ");
-        scanf("%49s", students[i].name);
-        printf("Roll: ");
-        scanf("%d", &students[i].roll);
-        printf("Marks: ");
-        scanf("%d", &students[i].marks);
+        printf("Enter Name Roll No. Marks: ");
+        scanf("%49s %d %d", students[i].name, &students[i].roll, &students[i].marks);
     }
     
     printf("\nStudents with marks > 50:\n");
