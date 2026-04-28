@@ -13,12 +13,8 @@ int main() {
     printf("Enter data for 5 employees:\n");
     for (int i = 0; i < 5; i++) {
         printf("Employee %d:\n", i + 1);
-        printf("Name: ");
-        scanf("%49s", emp[i].name);
-        printf("Address: ");
-        scanf("%99s", emp[i].address);
-        printf("Salary: ");
-        scanf("%f", &emp[i].salary);
+        printf("Enter Name Address Salary: ");
+        scanf("%49s %99s %f", emp[i].name, emp[i].address, &emp[i].salary);
     }
     
     for (int i = 0; i < 5; i++)
