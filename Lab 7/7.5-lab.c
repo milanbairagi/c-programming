@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    FILE *file = fopen("student.txt", "w");
+    FILE *file = fopen("D:/test/drive/student.txt", "w");  // change the path as needed
     if (file == NULL) {
         printf("Error creating file!\n");
         return 1;
