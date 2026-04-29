@@ -25,7 +25,7 @@ gcc 1.1-lab.c -o 1.1-lab
 ./1.1-lab
 ```
 
-## For math functions, link the math library:
+### For math functions, link the math library:
 ```bash
 cd "Lab 1"
 gcc 1.2-lab.c -lm -o 1.2-lab
