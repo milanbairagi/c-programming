@@ -23,6 +23,10 @@ A comprehensive collection of **100+ C programming assignments** organized into 
 cd "Lab 1"
 gcc 1.1-lab.c -o 1.1-lab
 ./1.1-lab
+
+# In Windows
+gcc 1.1-lab.c -o 1.1-lab.exe
+./1.1-lab.exe
 ```
 
 ### For math functions, link the math library:
